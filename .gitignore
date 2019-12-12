@@ -13,7 +13,8 @@
 /out/
 
 # production
-/build
+/build/
+/buildnext/
 
 # misc
 .DS_Store

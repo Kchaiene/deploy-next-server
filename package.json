@@ -1,15 +1,22 @@
 {
   "name": "next-js-deploy",
   "version": "0.1.0",
-  "private": true,
+  "main": "server.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "dev1": "next dev",
+    "start1": "next start",
+    "dev": "node server.js",
+    "start": "set NODE_ENV=production && node server.js",
+    "cross": "cross-env NODE_ENV=production node server.js",
+    "build": "next build"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "next": "9.1.5",
     "react": "16.12.0",
     "react-dom": "16.12.0"
+  },
+  "devDependencies": {
+    "cross-env": "^6.0.3"
   }
 }
