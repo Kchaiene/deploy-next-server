@@ -1,5 +1,5 @@
 {
-  "name": "next-js-deploy",
+  "name": "deploy-next-server",
   "version": "0.1.0",
   "main": "server.js",
   "scripts": {
